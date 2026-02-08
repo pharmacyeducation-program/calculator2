@@ -61,3 +61,20 @@ button {
     background-color: rgb(68, 192, 68);
 
 }
+
+@media (max-width: 480px) {
+    .calculator {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input {
+        height: 60px;
+        font-size: 24px;
+    }
+
+    button {
+        height: 45px;
+        font-size: 16px;
+    }
+}
